@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'mermaidbold';
+    src: url('mermaid1001-webfont.woff2') format('woff2'),
+         url('mermaid1001-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#wrapper {
+ width:500px;
+ height:500px;
+ margin:0 auto;
+ /* background:green; */
+ position:fixed;
+ left:50%;
+ top:50%;
+ margin-left:-250px;
+ margin-top:-250px;
+ 
+}
+
+
+#wrappered{
+	text-align: center;
+	line-height: 500px;
+	font-size: 700%;
+}
+
+html, body {
+    font-family: 'mermaidbold', sans-serif; 
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+	color: #0d142c;
+}
+
+html { 
+  background: url("invitation_bg.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
