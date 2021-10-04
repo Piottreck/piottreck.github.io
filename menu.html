@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand">Fabian & May-Britt</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="einladung.html"><span>Einladung</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"><span>Menü</span></a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="playlist.html"><span>Playlist</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photos.html"><span>Fotos</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div class="container px-5 my-5">
+    <form id="contactForm" name="simple-contact-form" accept-charset="utf-8" data-sb-form-api-token="API_TOKEN"
+	action="https://formspree.io/f/moqybllz" method="POST">
+        <div class="mb-3">
+            <label class="form-label" for="vollerName">ich heiße:</label>
+            <input class="form-control" id="vollerName" type="text" name="name" placeholder="Max Mara Musterfrau" required />
+            <div class="invalid-feedback" >Bitte Namen angeben</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label d-block">als hauptgang wähle ich:</label>
+            <div class="form-check">
+                <input class="form-check-input" id="kabeljau" type="radio" name="menu" value ="kabeljau" required />
+                <label class="form-check-label" for="kabeljau">Kabeljau unter einer Kräuterkruste mit Pernod-Weißweinschaum &amp; Zitronen-Kapern Kartoffelpüree &amp; gedünstetem Spinat</label>
+			</div>
+            <div class="form-check">
+                <input class="form-check-input" id="kalbsbaeckchen" type="radio" name="menu" value ="kalbsbaeckchen" required />
+                <label class="form-check-label" for="kalbsbaeckchen">Geschmorte Kalbsbäckchen auf Rotweinjus &amp; Rahmwirsing an Rosmarinkartoffeln</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" id="linguini" type="radio" name="menu" value ="linguini" required  />
+                <label class="form-check-label" for="lingiuni">Vegetarisch: Linguini aus dem Parmesanlaib mit frischen Trüffel der Saison</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" id="linguini2" type="radio" name="menu" value ="linguini2" required />
+                <label class="form-check-label" for="linguini2">Vegan: Linguini aus dem Parmesanlaib mit frischen Trüffel der Saison</label>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="wuensche">ich habe folgende unverträglichleiten und wünsche:</label>
+            <textarea class="form-control" id="wuensche" type="text" name="anmerkungen" placeholder="Ich leider unter Laktose- und Korianderintoleranz" style="height: 10rem;" data-sb-validations=""></textarea>
+        </div>
+        <div class="mb-3">
+            <label class="form-label d-block">ich lebe:</label>
+            <div class="form-check">
+                <input class="form-check-input" id="vegetarisch" type="checkbox" name="vegetarisch" value ="ja" data-sb-validations="" />
+                <label class="form-check-label" for="vegetarisch">Vegetarisch</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" id="vegan" type="checkbox" name="vegan" value ="ja" data-sb-validations="" />
+                <label class="form-check-label" for="vegan">Vegan</label>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="song">ihr findet mich auf der tanzfläche, wenn dieser song gespielt wird:</label>
+            <input class="form-control" id="song" type="text" name="liedwunsch" placeholder="Toto - Africa" />
+        </div>
+        <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+                <p>To activate this form, sign up at</p>
+                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+            </div>
+        </div>
+        <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <div class="d-grid">
+            <!--<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>-->
+			<button type="Abschicken" class="btn btn-default">Abschicken</button>
+        </div>
+		
+    </form>
+</div>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
