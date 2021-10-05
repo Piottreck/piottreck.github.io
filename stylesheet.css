@@ -4,6 +4,8 @@
   /* background-color: #1f1f1f; */
   border-color: #0d142c;
   border-radius: 0.0rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 .btn-primary:hover {
   color: #ffffff;
