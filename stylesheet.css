@@ -9,9 +9,9 @@
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #0d142c;;
+  background-color: #070B17;
   /* background-color: #404040; */
-  border-color: #0d142c;;
+  border-color: #070B17;
 }
 .btn-default {
   color: #ffffff;
@@ -19,7 +19,8 @@
 }
 .btn-default:hover {
   color: #ffffff;
-  background-color: #0d142c;;
+  background-color: #070B17;
+  border-color: #070B17;
 }
 .navbar-nav {
     display:table !important;
