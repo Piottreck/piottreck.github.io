@@ -3,15 +3,15 @@
   background-color: #0d142c;
   /* background-color: #1f1f1f; */
   border-color: #0d142c;
-  border-radius: 0.0rem;
+  /* border-radius: 0.0rem; */
   margin-right: 5px;
   margin-bottom: 5px;
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #070B17;
+  background-color: #0d142c;;
   /* background-color: #404040; */
-  border-color: #070B17;
+  border-color: #0d142c;;
 }
 .btn-default {
   color: #ffffff;
@@ -19,7 +19,7 @@
 }
 .btn-default:hover {
   color: #ffffff;
-  background-color: #070B17;
+  background-color: #0d142c;;
 }
 .navbar-nav {
     display:table !important;
