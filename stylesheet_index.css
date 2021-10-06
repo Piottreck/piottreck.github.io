@@ -7,22 +7,22 @@
 }
 
 #wrapper {
- width:500px;
- height:500px;
+ width:300px;
+ height:300px;
  margin:0 auto;
  /* background:green; */
  position:fixed;
  left:50%;
  top:50%;
- margin-left:-250px;
- margin-top:-250px;
+ margin-left:-150px;
+ margin-top:-150px;
  
 }
 
 
 #wrappered{
 	text-align: center;
-	line-height: 500px;
+	line-height: 300px;
 	font-size: 400%;
 }
 
