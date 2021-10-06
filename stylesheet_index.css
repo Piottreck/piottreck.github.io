@@ -32,6 +32,7 @@ html, body {
     -webkit-text-size-adjust: 100%;
 	color: #0d142c;
 	touch-action: none;
+	zoom: 500%;
 }
 
 html { 
