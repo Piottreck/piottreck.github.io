@@ -31,7 +31,7 @@ html, body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 	color: #0d142c;
-	touch-action: pan-y;
+	touch-action: none;
 }
 
 html { 
