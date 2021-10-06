@@ -23,7 +23,7 @@
 #wrappered{
 	text-align: center;
 	line-height: 500px;
-	font-size: 700%;
+	font-size: 400%;
 }
 
 html, body {
@@ -31,8 +31,7 @@ html, body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 	color: #0d142c;
-	/* touch-action: none; */
-	zoom: 150%
+	touch-action: none;
 	/* zoom: 500%; */
 }
 
